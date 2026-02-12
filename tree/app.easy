@@ -1,471 +1,471 @@
 {
-  "_id_": 2,
-  "_type": "App",
-  "features": {
-    "_id_": 4,
-    "_type": "App.Features",
-    "list_": [
-      {
-        "_id_": 60,
-        "_type": "Activity",
-        "features": {
-          "_id_": 62,
-          "_type": "Activity.Features",
-          "list_": []
-        },
-        "navigation": {
-          "_id_": 117,
-          "_type": "Material.BottomNavigationView",
-          "id": {
-            "_id_": 132,
-            "_type": "String",
-            "value_": ""
-          },
-          "views": {
-            "_id_": 125,
-            "_type": "ViewList",
-            "list_": []
-          },
-          "labelVisibilityMode": {
-            "_id_": 119,
-            "_type": "Material.NavigationBarView.LabelVisibilityMode",
-            "value_": "auto"
-          },
-          "menu": {
-            "_id_": 229,
-            "_type": "MenuReference",
-            "ref": {
-              "_id_": 230,
-              "_type": "String",
-              "value_": "@menu\/navigation_menu"
-            }
-          },
-          "fragmentContainer": {
-            "_id_": 133,
-            "_type": "View.Reference",
-            "ref": {
-              "_id_": 134,
-              "_type": "String",
-              "value_": "@id\/content"
-            }
-          },
-          "gravity": {
-            "_id_": 135,
-            "_type": "Gravity",
-            "value_": "top"
-          },
-          "initialSync": {
-            "_id_": 126,
-            "_type": "Boolean",
-            "value_": true
-          }
-        },
-        "menu": {
-          "_id_": 91,
-          "_type": "Menu",
-          "items": {
-            "_id_": 93,
-            "_type": "List",
-            "list_": [
-              {
-                "_id_": 95,
-                "_type": "Menu.Item",
-                "icon": {
-                  "_id_": 102,
-                  "_type": "DrawableReference",
-                  "ref": {
-                    "_id_": 103,
+    "_id_": 2,
+    "_type": "App",
+    "features": {
+        "_id_": 4,
+        "_type": "App.Features",
+        "list_": [
+            {
+                "_id_": 60,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 62,
+                    "_type": "Activity.Features",
+                    "list_": []
+                },
+                "navigation": {
+                    "_id_": 117,
+                    "_type": "Material.BottomNavigationView",
+                    "id": {
+                        "_id_": 132,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 125,
+                        "_type": "ViewList",
+                        "list_": []
+                    },
+                    "labelVisibilityMode": {
+                        "_id_": 119,
+                        "_type": "Material.NavigationBarView.LabelVisibilityMode",
+                        "value_": "auto"
+                    },
+                    "menu": {
+                        "_id_": 229,
+                        "_type": "MenuReference",
+                        "ref": {
+                            "_id_": 230,
+                            "_type": "String",
+                            "value_": "@menu\/navigation_menu"
+                        }
+                    },
+                    "fragmentContainer": {
+                        "_id_": 133,
+                        "_type": "View.Reference",
+                        "ref": {
+                            "_id_": 134,
+                            "_type": "String",
+                            "value_": "@id\/content"
+                        }
+                    },
+                    "gravity": {
+                        "_id_": 135,
+                        "_type": "Gravity",
+                        "value_": "top"
+                    },
+                    "initialSync": {
+                        "_id_": 126,
+                        "_type": "Boolean",
+                        "value_": true
+                    }
+                },
+                "menu": {
+                    "_id_": 91,
+                    "_type": "Menu",
+                    "items": {
+                        "_id_": 93,
+                        "_type": "List",
+                        "list_": [
+                            {
+                                "_id_": 95,
+                                "_type": "Menu.Item",
+                                "icon": {
+                                    "_id_": 102,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 103,
+                                        "_type": "String",
+                                        "value_": "@drawable\/setting"
+                                    }
+                                },
+                                "title": {
+                                    "_id_": 101,
+                                    "_type": "String",
+                                    "value_": "Setting"
+                                },
+                                "showAsAction": {
+                                    "_id_": 104,
+                                    "_type": "Menu.ShowAsAction",
+                                    "value_": "always"
+                                },
+                                "action": {
+                                    "_id_": 106,
+                                    "_type": "ShowToast",
+                                    "message": {
+                                        "_id_": 109,
+                                        "_type": "String",
+                                        "value_": "Settings clicked"
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 100,
+                                    "_type": "String",
+                                    "value_": "setting"
+                                }
+                            }
+                        ],
+                        "elementType_": "Menu.Element"
+                    }
+                },
+                "contentView": {
+                    "_id_": 111,
+                    "_type": "FragmentContainerView",
+                    "id": {
+                        "_id_": 115,
+                        "_type": "String",
+                        "value_": "content"
+                    },
+                    "views": {
+                        "_id_": 113,
+                        "_type": "ViewList",
+                        "list_": []
+                    }
+                },
+                "toolbar": {
+                    "_id_": 84,
+                    "_type": "Material.MaterialToolbar",
+                    "dark": {
+                        "_id_": 87,
+                        "_type": "Boolean",
+                        "value_": true
+                    },
+                    "id": {
+                        "_id_": 86,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "android:background": {
+                        "_id_": 88,
+                        "_type": "ColorReference",
+                        "ref": {
+                            "_id_": 89,
+                            "_type": "String",
+                            "value_": "@color\/primary"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 69,
                     "_type": "String",
-                    "value_": "@drawable\/settings"
-                  }
+                    "value_": "Main"
                 },
-                "title": {
-                  "_id_": 101,
-                  "_type": "String",
-                  "value_": "Settings"
-                },
-                "showAsAction": {
-                  "_id_": 104,
-                  "_type": "Menu.ShowAsAction",
-                  "value_": "always"
-                },
-                "action": {
-                  "_id_": 106,
-                  "_type": "ShowToast",
-                  "message": {
-                    "_id_": 109,
-                    "_type": "String",
-                    "value_": "Settings clicked"
-                  }
-                },
-                "id": {
-                  "_id_": 100,
-                  "_type": "String",
-                  "value_": "settings"
+                "launcher": {
+                    "_id_": 82,
+                    "_type": "Activity.Launcher"
                 }
-              }
-            ],
-            "elementType_": "Menu.Element"
-          }
+            },
+            {
+                "_id_": 137,
+                "_type": "MenuResource",
+                "name": {
+                    "_id_": 142,
+                    "_type": "String",
+                    "value_": "navigation_menu"
+                },
+                "menu": {
+                    "_id_": 144,
+                    "_type": "Menu",
+                    "items": {
+                        "_id_": 146,
+                        "_type": "List",
+                        "list_": [
+                            {
+                                "_id_": 148,
+                                "_type": "Menu.Item",
+                                "icon": {
+                                    "_id_": 155,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 156,
+                                        "_type": "String",
+                                        "value_": "@drawable\/item1_icon"
+                                    }
+                                },
+                                "title": {
+                                    "_id_": 154,
+                                    "_type": "String",
+                                    "value_": "Item 1"
+                                },
+                                "action": {
+                                    "_id_": 158,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 167,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 168,
+                                            "_type": "String",
+                                            "value_": "@id\/content"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 169,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 170,
+                                            "_type": "String",
+                                            "value_": "Page1"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 153,
+                                    "_type": "String",
+                                    "value_": "item1"
+                                }
+                            },
+                            {
+                                "_id_": 172,
+                                "_type": "Menu.Item",
+                                "icon": {
+                                    "_id_": 179,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 180,
+                                        "_type": "String",
+                                        "value_": "@drawable\/item2_icon"
+                                    }
+                                },
+                                "title": {
+                                    "_id_": 178,
+                                    "_type": "String",
+                                    "value_": "Item 2"
+                                },
+                                "action": {
+                                    "_id_": 182,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 191,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 192,
+                                            "_type": "String",
+                                            "value_": "@id\/content"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 193,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 194,
+                                            "_type": "String",
+                                            "value_": "Page2"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 177,
+                                    "_type": "String",
+                                    "value_": "item2"
+                                }
+                            }
+                        ],
+                        "elementType_": "Menu.Element"
+                    }
+                }
+            },
+            {
+                "_id_": 196,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 207,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 211,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 209,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 200,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 203,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 204,
+                                    "_type": "String",
+                                    "value_": "Page 1"
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 205,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 198,
+                    "_type": "String",
+                    "value_": "Page1"
+                }
+            },
+            {
+                "_id_": 213,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 224,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 228,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 226,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 217,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 220,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 221,
+                                    "_type": "String",
+                                    "value_": "Page 2"
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 222,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 215,
+                    "_type": "String",
+                    "value_": "Page2"
+                }
+            },
+            {
+                "_id_": 232,
+                "_type": "ColorResource",
+                "color": {
+                    "_id_": 236,
+                    "_type": "Color",
+                    "color_": -679884
+                },
+                "name": {
+                    "_id_": 235,
+                    "_type": "String",
+                    "value_": "primary"
+                }
+            },
+            {
+                "_id_": 238,
+                "_type": "ColorResource",
+                "color": {
+                    "_id_": 242,
+                    "_type": "Color",
+                    "color_": -12254197
+                },
+                "configuration": {
+                    "_id_": 244,
+                    "_type": "ResourceConfiguration",
+                    "nightMode": {
+                        "_id_": 245,
+                        "_type": "App.ResourceConfiguration.NightMode",
+                        "value_": "night"
+                    }
+                },
+                "name": {
+                    "_id_": 241,
+                    "_type": "String",
+                    "value_": "primary"
+                }
+            }
+        ]
+    },
+    "settings": {
+        "_id_": 6,
+        "_type": "App.Settings",
+        "debugBuild": {
+            "_id_": 8,
+            "_type": "App.Settings.DebugBuild"
         },
-        "contentView": {
-          "_id_": 111,
-          "_type": "FragmentContainerView",
-          "id": {
-            "_id_": 115,
-            "_type": "String",
-            "value_": "content"
-          },
-          "views": {
-            "_id_": 113,
-            "_type": "ViewList",
-            "list_": []
-          }
-        },
-        "toolbar": {
-          "_id_": 84,
-          "_type": "Material.MaterialToolbar",
-          "dark": {
-            "_id_": 87,
+        "releaseBuild": {
+            "_id_": 10,
+            "_type": "App.Settings.ReleaseBuild"
+        }
+    },
+    "theme": {
+        "_id_": 28,
+        "_type": "Theme.Material.DayNight",
+        "statusBarMatchingActivity": {
+            "_id_": 58,
             "_type": "Boolean",
             "value_": true
-          },
-          "id": {
-            "_id_": 86,
-            "_type": "String",
-            "value_": ""
-          },
-          "android:background": {
-            "_id_": 88,
+        },
+        "colorPrimary": {
+            "_id_": 56,
             "_type": "ColorReference",
             "ref": {
-              "_id_": 89,
-              "_type": "String",
-              "value_": "@color\/primary"
+                "_id_": 57,
+                "_type": "String",
+                "value_": "@color\/primary"
             }
-          }
-        },
-        "name": {
-          "_id_": 69,
-          "_type": "String",
-          "value_": "Main"
-        },
-        "launcher": {
-          "_id_": 82,
-          "_type": "Activity.Launcher"
         }
-      },
-      {
-        "_id_": 137,
-        "_type": "MenuResource",
-        "name": {
-          "_id_": 142,
-          "_type": "String",
-          "value_": "navigation_menu"
+    },
+    "packaging": {
+        "_id_": 12,
+        "_type": "App.Packaging",
+        "icon": {
+            "_id_": 54,
+            "_type": "DrawableReference",
+            "ref": {
+                "_id_": 55,
+                "_type": "String",
+                "value_": "@drawable\/app_icon"
+            }
         },
-        "menu": {
-          "_id_": 144,
-          "_type": "Menu",
-          "items": {
-            "_id_": 146,
-            "_type": "List",
-            "list_": [
-              {
-                "_id_": 148,
-                "_type": "Menu.Item",
-                "icon": {
-                  "_id_": 155,
-                  "_type": "DrawableReference",
-                  "ref": {
-                    "_id_": 156,
-                    "_type": "String",
-                    "value_": "@drawable\/item1_icon"
-                  }
-                },
-                "title": {
-                  "_id_": 154,
-                  "_type": "String",
-                  "value_": "Item 1"
-                },
-                "action": {
-                  "_id_": 158,
-                  "_type": "Fragment.Set",
-                  "container": {
-                    "_id_": 167,
-                    "_type": "View.Reference",
-                    "ref": {
-                      "_id_": 168,
-                      "_type": "String",
-                      "value_": "@id\/content"
-                    }
-                  },
-                  "fragment": {
-                    "_id_": 169,
-                    "_type": "Fragment.Reference",
-                    "name": {
-                      "_id_": 170,
-                      "_type": "String",
-                      "value_": "Page1"
-                    }
-                  }
-                },
-                "id": {
-                  "_id_": 153,
-                  "_type": "String",
-                  "value_": "item1"
-                }
-              },
-              {
-                "_id_": 172,
-                "_type": "Menu.Item",
-                "icon": {
-                  "_id_": 179,
-                  "_type": "DrawableReference",
-                  "ref": {
-                    "_id_": 180,
-                    "_type": "String",
-                    "value_": "@drawable\/item2_icon"
-                  }
-                },
-                "title": {
-                  "_id_": 178,
-                  "_type": "String",
-                  "value_": "Item 2"
-                },
-                "action": {
-                  "_id_": 182,
-                  "_type": "Fragment.Set",
-                  "container": {
-                    "_id_": 191,
-                    "_type": "View.Reference",
-                    "ref": {
-                      "_id_": 192,
-                      "_type": "String",
-                      "value_": "@id\/content"
-                    }
-                  },
-                  "fragment": {
-                    "_id_": 193,
-                    "_type": "Fragment.Reference",
-                    "name": {
-                      "_id_": 194,
-                      "_type": "String",
-                      "value_": "Page2"
-                    }
-                  }
-                },
-                "id": {
-                  "_id_": 177,
-                  "_type": "String",
-                  "value_": "item2"
-                }
-              }
-            ],
-            "elementType_": "Menu.Element"
-          }
-        }
-      },
-      {
-        "_id_": 196,
-        "_type": "Fragment",
-        "layout": {
-          "_id_": 207,
-          "_type": "RelativeLayout",
-          "id": {
-            "_id_": 211,
+        "targetSdk": {
+            "_id_": 17,
+            "_type": "Integer",
+            "value_": 35
+        },
+        "label": {
+            "_id_": 53,
             "_type": "String",
-            "value_": ""
-          },
-          "views": {
-            "_id_": 209,
-            "_type": "ViewList",
-            "list_": [
-              {
-                "_id_": 200,
-                "_type": "TextView",
-                "id": {
-                  "_id_": 203,
-                  "_type": "String",
-                  "value_": ""
-                },
-                "android:text": {
-                  "_id_": 204,
-                  "_type": "String",
-                  "value_": "Page 1"
-                },
-                "android:layout_centerInParent": {
-                  "_id_": 205,
-                  "_type": "Boolean",
-                  "value_": true
-                }
-              }
-            ]
-          }
+            "value_": "PionÉ"
         },
-        "name": {
-          "_id_": 198,
-          "_type": "String",
-          "value_": "Page1"
-        }
-      },
-      {
-        "_id_": 213,
-        "_type": "Fragment",
-        "layout": {
-          "_id_": 224,
-          "_type": "RelativeLayout",
-          "id": {
-            "_id_": 228,
+        "versionName": {
+            "_id_": 19,
             "_type": "String",
-            "value_": ""
-          },
-          "views": {
-            "_id_": 226,
-            "_type": "ViewList",
-            "list_": [
-              {
-                "_id_": 217,
-                "_type": "TextView",
-                "id": {
-                  "_id_": 220,
-                  "_type": "String",
-                  "value_": ""
-                },
-                "android:text": {
-                  "_id_": 221,
-                  "_type": "String",
-                  "value_": "Page 2"
-                },
-                "android:layout_centerInParent": {
-                  "_id_": 222,
-                  "_type": "Boolean",
-                  "value_": true
-                }
-              }
-            ]
-          }
+            "value_": "1.0"
         },
-        "name": {
-          "_id_": 215,
-          "_type": "String",
-          "value_": "Page2"
+        "versionCode": {
+            "_id_": 20,
+            "_type": "Integer",
+            "value_": 1
+        },
+        "minSdk": {
+            "_id_": 21,
+            "_type": "Integer",
+            "value_": 26
+        },
+        "permissions": {
+            "_id_": 23,
+            "_type": "App.Permissions"
+        },
+        "packageName": {
+            "_id_": 52,
+            "_type": "String",
+            "value_": "com.app.pionesia"
         }
-      },
-      {
-        "_id_": 232,
-        "_type": "ColorResource",
-        "color": {
-          "_id_": 236,
-          "_type": "Color",
-          "color_": -679884
-        },
-        "name": {
-          "_id_": 235,
-          "_type": "String",
-          "value_": "primary"
-        }
-      },
-      {
-        "_id_": 238,
-        "_type": "ColorResource",
-        "color": {
-          "_id_": 242,
-          "_type": "Color",
-          "color_": -12254197
-        },
-        "configuration": {
-          "_id_": 244,
-          "_type": "ResourceConfiguration",
-          "nightMode": {
-            "_id_": 245,
-            "_type": "App.ResourceConfiguration.NightMode",
-            "value_": "night"
-          }
-        },
-        "name": {
-          "_id_": 241,
-          "_type": "String",
-          "value_": "primary"
-        }
-      }
-    ]
-  },
-  "settings": {
-    "_id_": 6,
-    "_type": "App.Settings",
-    "debugBuild": {
-      "_id_": 8,
-      "_type": "App.Settings.DebugBuild"
     },
-    "releaseBuild": {
-      "_id_": 10,
-      "_type": "App.Settings.ReleaseBuild"
-    }
-  },
-  "theme": {
-    "_id_": 28,
-    "_type": "Theme.Material.DayNight",
-    "statusBarMatchingActivity": {
-      "_id_": 58,
-      "_type": "Boolean",
-      "value_": true
-    },
-    "colorPrimary": {
-      "_id_": 56,
-      "_type": "ColorReference",
-      "ref": {
-        "_id_": 57,
-        "_type": "String",
-        "value_": "@color\/primary"
-      }
-    }
-  },
-  "packaging": {
-    "_id_": 12,
-    "_type": "App.Packaging",
-    "icon": {
-      "_id_": 54,
-      "_type": "DrawableReference",
-      "ref": {
-        "_id_": 55,
-        "_type": "String",
-        "value_": "@drawable\/app_icon"
-      }
-    },
-    "targetSdk": {
-      "_id_": 17,
-      "_type": "Integer",
-      "value_": 35
-    },
-    "label": {
-      "_id_": 53,
-      "_type": "String",
-      "value_": "PionÉ"
-    },
-    "versionName": {
-      "_id_": 19,
-      "_type": "String",
-      "value_": "1.0"
-    },
-    "versionCode": {
-      "_id_": 20,
-      "_type": "Integer",
-      "value_": 1
-    },
-    "minSdk": {
-      "_id_": 21,
-      "_type": "Integer",
-      "value_": 26
-    },
-    "permissions": {
-      "_id_": 23,
-      "_type": "App.Permissions"
-    },
-    "packageName": {
-      "_id_": 52,
-      "_type": "String",
-      "value_": "com.app.pionesia"
-    }
-  },
-  "_abVer": 238
+    "_abVer": 238
 }
