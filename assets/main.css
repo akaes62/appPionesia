@@ -1,0 +1,82 @@
+/* Palette Warna: Cokelat Sporty & Cream */
+:root {
+  --cokelat-tua: #8B4513;     /* Warna bola rugbi */
+  --cokelat-muda: #D2691E;    /* Warna bola basket */
+  --aksen-kuning: #FFD700;    /* Warna emas/piala */
+  --latar-cream: #FFF8DC;     /* Warna latar lembut agar mata tidak lelah */
+  --putih: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--latar-cream);
+  color: #333;
+}
+
+.centerInScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Tipografi untuk Anak-anak */
+h1 {
+  color: var(--cokelat-tua);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px var(--putih);
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+/* Tombol Menu yang "Puffy" dan Menarik */
+.button-pione {
+  background-color: var(--cokelat-muda);
+  color: white;
+  border: none;
+  border-radius: 25px; /* Membuat sudut membulat */
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px #A0522D; /* Efek 3D */
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-pione:active {
+  box-shadow: 0 2px #A0522D;
+  transform: translateY(4px); /* Efek saat ditekan */
+}
+
+/* Card untuk Modul Catur */
+.card-modul {
+  background: var(--putih);
+  border: 4px solid var(--cokelat-tua);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 8px 8px 0px var(--cokelat-muda);
+}
+
+/* Ikon/Emoji Styling */
+.emoji-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
