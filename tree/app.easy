@@ -1,207 +1,350 @@
 {
-  "_id_": 2,
-  "_type": "App",
-  "features": {
-    "_id_": 4,
-    "_type": "App.Features",
-    "list_": [
-      {
-        "_id_": 60,
-        "_type": "Activity",
-        "name": {
-          "_id_": 69,
-          "_type": "String",
-          "value_": "Main"
-        },
-        "features": {
-          "_id_": 62,
-          "_type": "Activity.Features",
-          "list_": []
-        },
-        "navigation": {
-          "_id_": 117,
-          "_type": "Material.BottomNavigationView",
-          "id": {
-            "_id_": 132,
-            "_type": "String",
-            "value_": ""
-          },
-          "menu": {
-            "_id_": 229,
-            "_type": "MenuReference",
-            "ref": {
-              "_id_": 230,
-              "_type": "String",
-              "value_": "@menu/navigation_menu"
-            }
-          },
-          "fragmentContainer": {
-            "_id_": 133,
-            "_type": "View.Reference",
-            "ref": {
-              "_id_": 134,
-              "_type": "String",
-              "value_": "@id/content"
-            }
-          }
-        },
-        "menu": {
-          "_id_": 91,
-          "_type": "Menu",
-          "items": {
-            "_id_": 93,
-            "_type": "List",
-            "list_": [
-              {
-                "_id_": 95,
-                "_type": "Menu.Item",
-                "id": "settings",
-                "title": {
-                  "_id_": 101,
-                  "_type": "String",
-                  "value_": "Settings"
+    "_id_": 2,
+    "_type": "App",
+    "features": {
+        "_id_": 4,
+        "_type": "App.Features",
+        "list_": [
+            {
+                "_id_": 60,
+                "_type": "Activity",
+                "features": {
+                    "_id_": 62,
+                    "_type": "Activity.Features",
+                    "list_": []
                 },
-                "action": {
-                  "_id_": 106,
-                  "_type": "ShowToast",
-                  "message": {
-                    "_id_": 109,
+                "navigation": {
+                    "_id_": 117,
+                    "_type": "Material.BottomNavigationView",
+                    "id": {
+                        "_id_": 132,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "labelVisibilityMode": {
+                        "_id_": 243,
+                        "_type": "Material.NavigationBarView.LabelVisibilityMode",
+                        "value_": "auto"
+                    },
+                    "menu": {
+                        "_id_": 229,
+                        "_type": "MenuReference",
+                        "ref": {
+                            "_id_": 230,
+                            "_type": "String",
+                            "value_": "@menu\/navigation_menu"
+                        }
+                    },
+                    "fragmentContainer": {
+                        "_id_": 133,
+                        "_type": "View.Reference",
+                        "ref": {
+                            "_id_": 134,
+                            "_type": "String",
+                            "value_": "@id\/content"
+                        }
+                    }
+                },
+                "menu": {
+                    "_id_": 91,
+                    "_type": "Menu",
+                    "items": {
+                        "_id_": 93,
+                        "_type": "List",
+                        "list_": [
+                            {
+                                "_id_": 95,
+                                "_type": "Menu.Item",
+                                "title": {
+                                    "_id_": 101,
+                                    "_type": "String",
+                                    "value_": "Settings"
+                                },
+                                "action": {
+                                    "_id_": 106,
+                                    "_type": "ShowToast",
+                                    "message": {
+                                        "_id_": 109,
+                                        "_type": "String",
+                                        "value_": "Settings clicked"
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 247,
+                                    "_type": "String",
+                                    "value_": "settings"
+                                }
+                            }
+                        ],
+                        "elementType_": "Menu.Element"
+                    }
+                },
+                "contentView": {
+                    "_id_": 257,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 261,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 259,
+                        "_type": "ViewList",
+                        "list_": []
+                    }
+                },
+                "toolbar": {
+                    "_id_": 84,
+                    "_type": "Material.MaterialToolbar",
+                    "id": {
+                        "_id_": 255,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "android:background": {
+                        "_id_": 88,
+                        "_type": "ColorReference",
+                        "ref": {
+                            "_id_": 89,
+                            "_type": "String",
+                            "value_": "@color\/primary"
+                        }
+                    }
+                },
+                "name": {
+                    "_id_": 69,
                     "_type": "String",
-                    "value_": "Settings clicked"
-                  }
+                    "value_": "Main"
                 }
-              }
-            ]
-          }
-        },
-        "toolbar": {
-          "_id_": 84,
-          "_type": "Material.MaterialToolbar",
-          "android:background": {
-            "_id_": 88,
-            "_type": "ColorReference",
-            "ref": {
-              "_id_": 89,
-              "_type": "String",
-              "value_": "@color/primary"
+            },
+            {
+                "_id_": 137,
+                "_type": "MenuResource",
+                "name": {
+                    "_id_": 142,
+                    "_type": "String",
+                    "value_": "navigation_menu"
+                },
+                "menu": {
+                    "_id_": 144,
+                    "_type": "Menu",
+                    "items": {
+                        "_id_": 146,
+                        "_type": "List",
+                        "list_": [
+                            {
+                                "_id_": 148,
+                                "_type": "Menu.Item",
+                                "title": {
+                                    "_id_": 154,
+                                    "_type": "String",
+                                    "value_": "Materi U10"
+                                },
+                                "action": {
+                                    "_id_": 158,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 273,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 275,
+                                            "_type": "String",
+                                            "value_": "@id\/item1_icon"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 169,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 271,
+                                            "_type": "String",
+                                            "value_": "Page1"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 267,
+                                    "_type": "String",
+                                    "value_": "item1"
+                                }
+                            },
+                            {
+                                "_id_": 172,
+                                "_type": "Menu.Item",
+                                "title": {
+                                    "_id_": 178,
+                                    "_type": "String",
+                                    "value_": "Materi U13"
+                                },
+                                "action": {
+                                    "_id_": 182,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 283,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 285,
+                                            "_type": "String",
+                                            "value_": "@id\/"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 193,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 281,
+                                            "_type": "String",
+                                            "value_": "Page2"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 277,
+                                    "_type": "String",
+                                    "value_": "item2"
+                                }
+                            }
+                        ],
+                        "elementType_": "Menu.Element"
+                    }
+                }
+            },
+            {
+                "_id_": 196,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 207,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 295,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 209,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 200,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 293,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 204,
+                                    "_type": "String",
+                                    "value_": "Kurikulum Catur Dasar (U10)"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 287,
+                    "_type": "String",
+                    "value_": "Page1"
+                }
+            },
+            {
+                "_id_": 213,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 224,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 305,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 226,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 217,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 303,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 221,
+                                    "_type": "String",
+                                    "value_": "Kurikulum Catur Menengah (U13)"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 297,
+                    "_type": "String",
+                    "value_": "Page2"
+                }
             }
-          }
-        }
-      },
-      {
-        "_id_": 137,
-        "_type": "MenuResource",
-        "name": {
-          "_id_": 142,
-          "_type": "String",
-          "value_": "navigation_menu"
+        ]
+    },
+    "settings": {
+        "_id_": 320,
+        "_type": "App.Settings",
+        "debugBuild": {
+            "_id_": 322,
+            "_type": "App.Settings.DebugBuild"
         },
-        "menu": {
-          "_id_": 144,
-          "_type": "Menu",
-          "items": {
-            "_id_": 146,
-            "_type": "List",
-            "list_": [
-              {
-                "_id_": 148,
-                "_type": "Menu.Item",
-                "id": "item1",
-                "title": {
-                  "_id_": 154,
-                  "_type": "String",
-                  "value_": "Materi U10"
-                },
-                "action": {
-                  "_id_": 158,
-                  "_type": "Fragment.Set",
-                  "fragment": {
-                    "_id_": 169,
-                    "_type": "Fragment.Reference",
-                    "name": "Page1"
-                  }
-                }
-              },
-              {
-                "_id_": 172,
-                "_type": "Menu.Item",
-                "id": "item2",
-                "title": {
-                  "_id_": 178,
-                  "_type": "String",
-                  "value_": "Materi U13"
-                },
-                "action": {
-                  "_id_": 182,
-                  "_type": "Fragment.Set",
-                  "fragment": {
-                    "_id_": 193,
-                    "_type": "Fragment.Reference",
-                    "name": "Page2"
-                  }
-                }
-              }
-            ]
-          }
+        "releaseBuild": {
+            "_id_": 324,
+            "_type": "App.Settings.ReleaseBuild"
         }
-      },
-      {
-        "_id_": 196,
-        "_type": "Fragment",
-        "name": "Page1",
-        "layout": {
-          "_id_": 207,
-          "_type": "RelativeLayout",
-          "views": {
-            "_id_": 209,
-            "_type": "ViewList",
-            "list_": [
-              {
-                "_id_": 200,
-                "_type": "TextView",
-                "android:text": {
-                  "_id_": 204,
-                  "_type": "String",
-                  "value_": "Kurikulum Catur Dasar (U10)"
-                }
-              }
-            ]
-          }
+    },
+    "packaging": {
+        "_id_": 12,
+        "_type": "App.Packaging",
+        "icon": {
+            "_id_": 312,
+            "_type": "DrawableReference",
+            "ref": {
+                "_id_": 314,
+                "_type": "String",
+                "value_": "@drawable\/"
+            }
+        },
+        "targetSdk": {
+            "_id_": 309,
+            "_type": "Integer",
+            "value_": 35
+        },
+        "label": {
+            "_id_": 307,
+            "_type": "String",
+            "value_": "PionÉ"
+        },
+        "versionName": {
+            "_id_": 310,
+            "_type": "String",
+            "value_": "1.0"
+        },
+        "versionCode": {
+            "_id_": 315,
+            "_type": "Integer",
+            "value_": 1
+        },
+        "minSdk": {
+            "_id_": 316,
+            "_type": "Integer",
+            "value_": 26
+        },
+        "permissions": {
+            "_id_": 318,
+            "_type": "App.Permissions"
+        },
+        "packageName": {
+            "_id_": 308,
+            "_type": "String",
+            "value_": "com.app.pionesia"
         }
-      },
-      {
-        "_id_": 213,
-        "_type": "Fragment",
-        "name": "Page2",
-        "layout": {
-          "_id_": 224,
-          "_type": "RelativeLayout",
-          "views": {
-            "_id_": 226,
-            "_type": "ViewList",
-            "list_": [
-              {
-                "_id_": 217,
-                "_type": "TextView",
-                "android:text": {
-                  "_id_": 221,
-                  "_type": "String",
-                  "value_": "Kurikulum Catur Menengah (U13)"
-                }
-              }
-            ]
-          }
-        }
-      }
-    ]
-  },
-  "packaging": {
-    "_id_": 12,
-    "_type": "App.Packaging",
-    "label": "PionÉ",
-    "packageName": "com.app.pionesia",
-    "targetSdk": 35,
-    "versionName": "1.0"
-  },
-  "_abVer": 238
+    },
+    "_abVer": 238
 }
