@@ -376,12 +376,17 @@
                                 "android:text": {
                                     "_id_": 599,
                                     "_type": "String",
-                                    "value_": "1. Langkah Dasar Bidak"
+                                    "value_": "1. Teori Dasar"
                                 },
                                 "android:textAllCaps": {
                                     "_id_": 601,
                                     "_type": "Boolean",
                                     "value_": false
+                                },
+                                "android:layout_marginBottom": {
+                                    "_id_": 1004,
+                                    "_type": "String",
+                                    "value_": "8dp"
                                 }
                             },
                             {
@@ -400,15 +405,15 @@
                                 "android:text": {
                                     "_id_": 605,
                                     "_type": "String",
-                                    "value_": "2. Aturan Rokade"
+                                    "value_": "2. Teori Pembukaan"
                                 },
                                 "android:textAllCaps": {
                                     "_id_": 608,
                                     "_type": "Boolean",
                                     "value_": false
                                 },
-                                "android:layout_marginTop": {
-                                    "_id_": 607,
+                                "android:layout_marginBottom": {
+                                    "_id_": 1005,
                                     "_type": "String",
                                     "value_": "8dp"
                                 }
@@ -429,15 +434,44 @@
                                 "android:text": {
                                     "_id_": 612,
                                     "_type": "String",
-                                    "value_": "3. Skak & Skak Mat"
+                                    "value_": "3. Teori Permainan Tengah"
                                 },
                                 "android:textAllCaps": {
                                     "_id_": 615,
                                     "_type": "Boolean",
                                     "value_": false
                                 },
-                                "android:layout_marginTop": {
-                                    "_id_": 614,
+                                "android:layout_marginBottom": {
+                                    "_id_": 1006,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                }
+                            },
+                            {
+                                "_id_": 836,
+                                "_type": "Button",
+                                "id": {
+                                    "_id_": 841,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:layout_width": {
+                                    "_id_": 843,
+                                    "_type": "String",
+                                    "value_": "match_parent"
+                                },
+                                "android:text": {
+                                    "_id_": 837,
+                                    "_type": "String",
+                                    "value_": "4. Teori End Game"
+                                },
+                                "android:textAllCaps": {
+                                    "_id_": 844,
+                                    "_type": "Boolean",
+                                    "value_": false
+                                },
+                                "android:layout_marginBottom": {
+                                    "_id_": 1007,
                                     "_type": "String",
                                     "value_": "8dp"
                                 }
