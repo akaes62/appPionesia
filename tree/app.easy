@@ -1,314 +1,146 @@
 {
-    "_id_": 2,
+    "_id_": 1,
     "_type": "App",
     "features": {
-        "_id_": 4,
+        "_id_": 2,
         "_type": "App.Features",
         "list_": [
             {
-                "_id_": 60,
+                "_id_": 3,
                 "_type": "Activity",
                 "features": {
-                    "_id_": 62,
+                    "_id_": 4,
                     "_type": "Activity.Features",
                     "list_": []
                 },
                 "navigation": {
-                    "_id_": 117,
+                    "_id_": 5,
                     "_type": "Material.BottomNavigationView",
                     "id": {
-                        "_id_": 919,
+                        "_id_": 6,
                         "_type": "String",
                         "value_": ""
                     },
                     "labelVisibilityMode": {
-                        "_id_": 119,
+                        "_id_": 7,
                         "_type": "Material.NavigationBarView.LabelVisibilityMode",
                         "value_": "auto"
                     },
                     "menu": {
-                        "_id_": 229,
+                        "_id_": 8,
                         "_type": "MenuReference",
                         "ref": {
-                            "_id_": 230,
+                            "_id_": 9,
                             "_type": "String",
                             "value_": "@menu\/navigation_menu"
                         }
                     },
                     "fragmentContainer": {
-                        "_id_": 133,
+                        "_id_": 10,
                         "_type": "View.Reference",
                         "ref": {
-                            "_id_": 134,
+                            "_id_": 11,
                             "_type": "String",
                             "value_": "@id\/content"
                         }
                     },
-                    "initialSync": {
-                        "_id_": 126,
+                    "menuActionsAreValues": {
+                        "_id_": 12,
                         "_type": "Boolean",
                         "value_": true
-                    }
-                },
-                "menu": {
-                    "_id_": 91,
-                    "_type": "Menu",
-                    "items": {
-                        "_id_": 93,
-                        "_type": "List",
-                        "list_": [
-                            {
-                                "_id_": 95,
-                                "_type": "Menu.Item",
-                                "subMenu": {
-                                    "_id_": 500,
-                                    "_type": "Menu",
-                                    "items": {
-                                        "_id_": 501,
-                                        "_type": "List",
-                                        "list_": [
-                                            {
-                                                "_id_": 502,
-                                                "_type": "Menu.Item",
-                                                "title": {
-                                                    "_id_": 503,
-                                                    "_type": "String",
-                                                    "value_": "Profil Coach"
-                                                },
-                                                "action": {
-                                                    "_id_": 504,
-                                                    "_type": "Fragment.Set",
-                                                    "container": {
-                                                        "_id_": 505,
-                                                        "_type": "View.Reference",
-                                                        "ref": {
-                                                            "_id_": 934,
-                                                            "_type": "String",
-                                                            "value_": "@id\/content"
-                                                        }
-                                                    },
-                                                    "fragment": {
-                                                        "_id_": 506,
-                                                        "_type": "Fragment.Reference",
-                                                        "name": {
-                                                            "_id_": 507,
-                                                            "_type": "String",
-                                                            "value_": "PageProfile"
-                                                        }
-                                                    }
-                                                },
-                                                "id": {
-                                                    "_id_": 938,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            },
-                                            {
-                                                "_id_": 508,
-                                                "_type": "Menu.Item",
-                                                "title": {
-                                                    "_id_": 509,
-                                                    "_type": "String",
-                                                    "value_": "Tentang Pionesia"
-                                                },
-                                                "action": {
-                                                    "_id_": 510,
-                                                    "_type": "ShowToast",
-                                                    "message": {
-                                                        "_id_": 511,
-                                                        "_type": "String",
-                                                        "value_": "Kurikulum Catur U10-U13"
-                                                    }
-                                                },
-                                                "id": {
-                                                    "_id_": 944,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            }
-                                        ],
-                                        "elementType_": "Menu.Element"
-                                    }
-                                },
-                                "icon": {
-                                    "_id_": 102,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 103,
-                                        "_type": "String",
-                                        "value_": "@drawable\/menu"
-                                    }
-                                },
-                                "title": {
-                                    "_id_": 101,
-                                    "_type": "String",
-                                    "value_": "Opsi"
-                                },
-                                "showAsAction": {
-                                    "_id_": 104,
-                                    "_type": "Menu.ShowAsAction",
-                                    "value_": "never"
-                                },
-                                "id": {
-                                    "_id_": 100,
-                                    "_type": "String",
-                                    "value_": "menu_more"
-                                }
-                            }
-                        ],
-                        "elementType_": "Menu.Element"
                     }
                 },
                 "contentView": {
-                    "_id_": 111,
+                    "_id_": 13,
                     "_type": "FragmentContainerView",
                     "id": {
-                        "_id_": 115,
+                        "_id_": 14,
                         "_type": "String",
                         "value_": "content"
-                    },
-                    "views": {
-                        "_id_": 113,
-                        "_type": "ViewList",
-                        "list_": []
                     }
                 },
                 "toolbar": {
-                    "_id_": 84,
+                    "_id_": 15,
                     "_type": "Material.MaterialToolbar",
                     "dark": {
-                        "_id_": 87,
+                        "_id_": 16,
                         "_type": "Boolean",
                         "value_": true
                     },
                     "id": {
-                        "_id_": 953,
+                        "_id_": 17,
                         "_type": "String",
                         "value_": ""
                     },
                     "android:background": {
-                        "_id_": 88,
+                        "_id_": 18,
                         "_type": "ColorReference",
                         "ref": {
-                            "_id_": 89,
+                            "_id_": 19,
                             "_type": "String",
                             "value_": "@color\/primary"
                         }
                     }
                 },
                 "name": {
-                    "_id_": 69,
+                    "_id_": 20,
                     "_type": "String",
                     "value_": "Main"
                 },
                 "launcher": {
-                    "_id_": 82,
+                    "_id_": 21,
                     "_type": "Activity.Launcher"
                 }
             },
             {
-                "_id_": 137,
+                "_id_": 22,
                 "_type": "MenuResource",
                 "name": {
-                    "_id_": 142,
+                    "_id_": 23,
                     "_type": "String",
                     "value_": "navigation_menu"
                 },
                 "menu": {
-                    "_id_": 144,
+                    "_id_": 24,
                     "_type": "Menu",
                     "items": {
-                        "_id_": 146,
+                        "_id_": 25,
                         "_type": "List",
                         "list_": [
                             {
-                                "_id_": 148,
+                                "_id_": 26,
                                 "_type": "Menu.Item",
-                                "icon": {
-                                    "_id_": 155,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 156,
-                                        "_type": "String",
-                                        "value_": "@drawable\/item1_icon"
-                                    }
-                                },
                                 "title": {
-                                    "_id_": 154,
+                                    "_id_": 27,
                                     "_type": "String",
                                     "value_": "Chess Pedia"
                                 },
                                 "action": {
-                                    "_id_": 158,
+                                    "_id_": 28,
                                     "_type": "Fragment.Set",
                                     "container": {
-                                        "_id_": 167,
+                                        "_id_": 29,
                                         "_type": "View.Reference",
                                         "ref": {
-                                            "_id_": 168,
+                                            "_id_": 30,
                                             "_type": "String",
                                             "value_": "@id\/content"
                                         }
                                     },
                                     "fragment": {
-                                        "_id_": 169,
+                                        "_id_": 31,
                                         "_type": "Fragment.Reference",
                                         "name": {
-                                            "_id_": 170,
+                                            "_id_": 32,
                                             "_type": "String",
                                             "value_": "Page1"
                                         }
                                     }
                                 },
                                 "id": {
-                                    "_id_": 153,
+                                    "_id_": 33,
                                     "_type": "String",
-                                    "value_": "item1"
-                                }
-                            },
-                            {
-                                "_id_": 172,
-                                "_type": "Menu.Item",
-                                "icon": {
-                                    "_id_": 179,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 180,
-                                        "_type": "String",
-                                        "value_": "@drawable\/item2_icon"
-                                    }
-                                },
-                                "title": {
-                                    "_id_": 178,
-                                    "_type": "String",
-                                    "value_": "Puzzles"
-                                },
-                                "action": {
-                                    "_id_": 182,
-                                    "_type": "Fragment.Set",
-                                    "container": {
-                                        "_id_": 191,
-                                        "_type": "View.Reference",
-                                        "ref": {
-                                            "_id_": 192,
-                                            "_type": "String",
-                                            "value_": "@id\/content"
-                                        }
-                                    },
-                                    "fragment": {
-                                        "_id_": 193,
-                                        "_type": "Fragment.Reference",
-                                        "name": {
-                                            "_id_": 194,
-                                            "_type": "String",
-                                            "value_": "Page2"
-                                        }
-                                    }
-                                },
-                                "id": {
-                                    "_id_": 177,
-                                    "_type": "String",
-                                    "value_": "item2"
+                                    "value_": ""
                                 }
                             }
                         ],
@@ -317,113 +149,112 @@
                 }
             },
             {
-                "_id_": 196,
+                "_id_": 34,
                 "_type": "Fragment",
                 "layout": {
-                    "_id_": 207,
+                    "_id_": 35,
                     "_type": "LinearLayout",
                     "id": {
-                        "_id_": 1032,
+                        "_id_": 36,
                         "_type": "String",
                         "value_": ""
                     },
                     "views": {
-                        "_id_": 209,
+                        "_id_": 37,
                         "_type": "ViewList",
                         "list_": [
                             {
-                                "_id_": 210,
+                                "_id_": 38,
                                 "_type": "TextView",
                                 "id": {
-                                    "_id_": 990,
+                                    "_id_": 39,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "android:textStyle": {
-                                    "_id_": 987,
+                                    "_id_": 40,
                                     "_type": "TextView.TextStyle",
                                     "value_": "bold"
                                 },
                                 "android:text": {
-                                    "_id_": 985,
+                                    "_id_": 41,
                                     "_type": "String",
                                     "value_": "🌳 Pohon Materi U10"
                                 },
                                 "android:textSize": {
-                                    "_id_": 986,
+                                    "_id_": 42,
                                     "_type": "String",
                                     "value_": "20sp"
-                                },
-                                "android:layout_marginBottom": {
-                                    "_id_": 988,
-                                    "_type": "String",
-                                    "value_": "16dp"
                                 }
                             },
                             {
-                                "_id_": 211,
+                                "_id_": 43,
                                 "_type": "Button",
                                 "id": {
-                                    "_id_": 1016,
+                                    "_id_": 44,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "invalidFields": {
-                                    "_id_": 1014,
+                                    "_id_": 151,
                                     "_type": "InvalidFields",
                                     "fields": {
+                                        "name": {
+                                            "_id_": 46,
+                                            "_type": "String",
+                                            "value_": "page1"
+                                        },
                                         "action": {
-                                            "_id_": 800,
+                                            "_id_": 47,
                                             "_type": "Fragment.Set",
                                             "container": {
-                                                "_id_": 801,
+                                                "_id_": 48,
                                                 "_type": "View.Reference",
                                                 "ref": {
-                                                    "_id_": 997,
+                                                    "_id_": 49,
                                                     "_type": "String",
                                                     "value_": "@id\/content"
                                                 }
                                             },
                                             "fragment": {
-                                                "_id_": 1010,
+                                                "_id_": 50,
                                                 "_type": "Fragment.Reference",
                                                 "name": {
-                                                    "_id_": 1012,
+                                                    "_id_": 51,
                                                     "_type": "String",
                                                     "value_": ""
                                                 }
                                             },
                                             "invalidFields": {
-                                                "_id_": 1008,
+                                                "_id_": 165,
                                                 "_type": "InvalidFields",
                                                 "fields": {
-                                                    "fragment": {
-                                                        "_id_": 802,
-                                                        "_type": "Fragment",
-                                                        "layout": {
-                                                            "_id_": 903,
-                                                            "_type": "WebView",
-                                                            "id": {
-                                                                "_id_": 1004,
-                                                                "_type": "String",
-                                                                "value_": ""
-                                                            },
-                                                            "invalidFields": {
-                                                                "_id_": 1002,
-                                                                "_type": "InvalidFields",
-                                                                "fields": {
-                                                                    "url": {
-                                                                        "_id_": 904,
-                                                                        "_type": "String",
-                                                                        "value_": "file:\/\/\/android_asset\/page1.html"
-                                                                    }
+                                                    "urlValue": {
+                                                        "_id_": 52,
+                                                        "_type": "String.Concat",
+                                                        "invalidFields": {
+                                                            "_id_": 161,
+                                                            "_type": "InvalidFields",
+                                                            "fields": {
+                                                                "values": {
+                                                                    "_id_": 53,
+                                                                    "_type": "UnknownType",
+                                                                    "value": [
+                                                                        "file:\/\/\/android_asset\/",
+                                                                        {
+                                                                            "_id_": 54,
+                                                                            "_type": "Field.Get",
+                                                                            "name": "name"
+                                                                        },
+                                                                        ".html"
+                                                                    ]
                                                                 }
                                                             }
                                                         },
-                                                        "name": {
-                                                            "_id_": 1006,
-                                                            "_type": "String",
-                                                            "value_": ""
+                                                        "values": {
+                                                            "_id_": 163,
+                                                            "_type": "List",
+                                                            "list_": []
                                                         }
                                                     }
                                                 }
@@ -431,76 +262,180 @@
                                         }
                                     }
                                 },
-                                "android:layout_width": {
-                                    "_id_": 993,
-                                    "_type": "String",
-                                    "value_": "match_parent"
-                                },
                                 "android:text": {
-                                    "_id_": 992,
+                                    "_id_": 45,
                                     "_type": "String",
-                                    "value_": "1. Arabian Mate (Taktik)"
-                                },
-                                "android:textAllCaps": {
-                                    "_id_": 994,
-                                    "_type": "Boolean",
-                                    "value_": false
+                                    "value_": "1. Langkah Dasar Bidak"
                                 }
                             },
                             {
-                                "_id_": 212,
+                                "_id_": 55,
                                 "_type": "Button",
                                 "id": {
-                                    "_id_": 1023,
+                                    "_id_": 56,
                                     "_type": "String",
                                     "value_": ""
                                 },
-                                "android:layout_width": {
-                                    "_id_": 1019,
-                                    "_type": "String",
-                                    "value_": "match_parent"
+                                "invalidFields": {
+                                    "_id_": 172,
+                                    "_type": "InvalidFields",
+                                    "fields": {
+                                        "name": {
+                                            "_id_": 59,
+                                            "_type": "String",
+                                            "value_": "page2"
+                                        },
+                                        "action": {
+                                            "_id_": 60,
+                                            "_type": "Fragment.Set",
+                                            "container": {
+                                                "_id_": 61,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 62,
+                                                    "_type": "String",
+                                                    "value_": "@id\/content"
+                                                }
+                                            },
+                                            "fragment": {
+                                                "_id_": 63,
+                                                "_type": "Fragment.Reference",
+                                                "name": {
+                                                    "_id_": 64,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            },
+                                            "invalidFields": {
+                                                "_id_": 186,
+                                                "_type": "InvalidFields",
+                                                "fields": {
+                                                    "urlValue": {
+                                                        "_id_": 65,
+                                                        "_type": "String.Concat",
+                                                        "invalidFields": {
+                                                            "_id_": 182,
+                                                            "_type": "InvalidFields",
+                                                            "fields": {
+                                                                "values": {
+                                                                    "_id_": 66,
+                                                                    "_type": "UnknownType",
+                                                                    "value": [
+                                                                        "file:\/\/\/android_asset\/",
+                                                                        {
+                                                                            "_id_": 67,
+                                                                            "_type": "Field.Get",
+                                                                            "name": "name"
+                                                                        },
+                                                                        ".html"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "values": {
+                                                            "_id_": 184,
+                                                            "_type": "List",
+                                                            "list_": []
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
                                 },
                                 "android:text": {
-                                    "_id_": 1018,
+                                    "_id_": 57,
                                     "_type": "String",
                                     "value_": "2. Aturan Rokade"
                                 },
-                                "android:textAllCaps": {
-                                    "_id_": 1021,
-                                    "_type": "Boolean",
-                                    "value_": false
-                                },
                                 "android:layout_marginTop": {
-                                    "_id_": 1020,
+                                    "_id_": 58,
                                     "_type": "String",
                                     "value_": "8dp"
                                 }
                             },
                             {
-                                "_id_": 213,
+                                "_id_": 68,
                                 "_type": "Button",
                                 "id": {
-                                    "_id_": 1030,
+                                    "_id_": 69,
                                     "_type": "String",
                                     "value_": ""
                                 },
-                                "android:layout_width": {
-                                    "_id_": 1026,
-                                    "_type": "String",
-                                    "value_": "match_parent"
+                                "invalidFields": {
+                                    "_id_": 193,
+                                    "_type": "InvalidFields",
+                                    "fields": {
+                                        "name": {
+                                            "_id_": 72,
+                                            "_type": "String",
+                                            "value_": "page3"
+                                        },
+                                        "action": {
+                                            "_id_": 73,
+                                            "_type": "Fragment.Set",
+                                            "container": {
+                                                "_id_": 74,
+                                                "_type": "View.Reference",
+                                                "ref": {
+                                                    "_id_": 75,
+                                                    "_type": "String",
+                                                    "value_": "@id\/content"
+                                                }
+                                            },
+                                            "fragment": {
+                                                "_id_": 76,
+                                                "_type": "Fragment.Reference",
+                                                "name": {
+                                                    "_id_": 77,
+                                                    "_type": "String",
+                                                    "value_": ""
+                                                }
+                                            },
+                                            "invalidFields": {
+                                                "_id_": 207,
+                                                "_type": "InvalidFields",
+                                                "fields": {
+                                                    "urlValue": {
+                                                        "_id_": 78,
+                                                        "_type": "String.Concat",
+                                                        "invalidFields": {
+                                                            "_id_": 203,
+                                                            "_type": "InvalidFields",
+                                                            "fields": {
+                                                                "values": {
+                                                                    "_id_": 79,
+                                                                    "_type": "UnknownType",
+                                                                    "value": [
+                                                                        "file:\/\/\/android_asset\/",
+                                                                        {
+                                                                            "_id_": 80,
+                                                                            "_type": "Field.Get",
+                                                                            "name": "name"
+                                                                        },
+                                                                        ".html"
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "values": {
+                                                            "_id_": 205,
+                                                            "_type": "List",
+                                                            "list_": []
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
                                 },
                                 "android:text": {
-                                    "_id_": 1025,
+                                    "_id_": 70,
                                     "_type": "String",
                                     "value_": "3. Skak & Skak Mat"
                                 },
-                                "android:textAllCaps": {
-                                    "_id_": 1028,
-                                    "_type": "Boolean",
-                                    "value_": false
-                                },
                                 "android:layout_marginTop": {
-                                    "_id_": 1027,
+                                    "_id_": 71,
                                     "_type": "String",
                                     "value_": "8dp"
                                 }
@@ -508,195 +443,32 @@
                         ]
                     },
                     "android:padding": {
-                        "_id_": 982,
+                        "_id_": 81,
                         "_type": "String",
                         "value_": "16dp"
                     },
                     "android:orientation": {
-                        "_id_": 981,
+                        "_id_": 82,
                         "_type": "Orientation",
                         "value_": "vertical"
                     }
                 },
                 "name": {
-                    "_id_": 198,
+                    "_id_": 83,
                     "_type": "String",
                     "value_": "Page1"
                 }
             },
             {
-                "_id_": 215,
-                "_type": "Fragment",
-                "layout": {
-                    "_id_": 224,
-                    "_type": "RelativeLayout",
-                    "id": {
-                        "_id_": 1043,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "views": {
-                        "_id_": 226,
-                        "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 217,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 1041,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 1038,
-                                    "_type": "String",
-                                    "value_": "Latihan Puzzle"
-                                },
-                                "android:layout_centerInParent": {
-                                    "_id_": 1039,
-                                    "_type": "Boolean",
-                                    "value_": true
-                                }
-                            }
-                        ]
-                    }
-                },
-                "name": {
-                    "_id_": 216,
-                    "_type": "String",
-                    "value_": "Page2"
-                }
-            },
-            {
-                "_id_": 300,
-                "_type": "Fragment",
-                "layout": {
-                    "_id_": 302,
-                    "_type": "LinearLayout",
-                    "id": {
-                        "_id_": 1072,
-                        "_type": "String",
-                        "value_": ""
-                    },
-                    "views": {
-                        "_id_": 303,
-                        "_type": "ViewList",
-                        "list_": [
-                            {
-                                "_id_": 304,
-                                "_type": "ImageView",
-                                "id": {
-                                    "_id_": 1057,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:layout_width": {
-                                    "_id_": 1052,
-                                    "_type": "String",
-                                    "value_": "100dp"
-                                },
-                                "android:layout_height": {
-                                    "_id_": 1053,
-                                    "_type": "String",
-                                    "value_": "100dp"
-                                },
-                                "android:src": {
-                                    "_id_": 305,
-                                    "_type": "DrawableReference",
-                                    "ref": {
-                                        "_id_": 1055,
-                                        "_type": "String",
-                                        "value_": "@drawable\/app_icon"
-                                    }
-                                }
-                            },
-                            {
-                                "_id_": 306,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 1064,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:textStyle": {
-                                    "_id_": 1061,
-                                    "_type": "TextView.TextStyle",
-                                    "value_": "bold"
-                                },
-                                "android:text": {
-                                    "_id_": 1059,
-                                    "_type": "String",
-                                    "value_": "Coach PionÉ"
-                                },
-                                "android:textSize": {
-                                    "_id_": 1060,
-                                    "_type": "String",
-                                    "value_": "22sp"
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 1062,
-                                    "_type": "String",
-                                    "value_": "16dp"
-                                }
-                            },
-                            {
-                                "_id_": 307,
-                                "_type": "TextView",
-                                "id": {
-                                    "_id_": 1070,
-                                    "_type": "String",
-                                    "value_": ""
-                                },
-                                "android:text": {
-                                    "_id_": 1066,
-                                    "_type": "String",
-                                    "value_": "Pengajar Catur Paruh Waktu\nFokus: U10 - U13 Indonesia"
-                                },
-                                "android:layout_marginTop": {
-                                    "_id_": 1068,
-                                    "_type": "String",
-                                    "value_": "8dp"
-                                },
-                                "android:gravity": {
-                                    "_id_": 1067,
-                                    "_type": "Gravity",
-                                    "value_": "center"
-                                }
-                            }
-                        ]
-                    },
-                    "android:padding": {
-                        "_id_": 1049,
-                        "_type": "String",
-                        "value_": "24dp"
-                    },
-                    "android:gravity": {
-                        "_id_": 1048,
-                        "_type": "Gravity",
-                        "value_": "center_horizontal"
-                    },
-                    "android:orientation": {
-                        "_id_": 1047,
-                        "_type": "Orientation",
-                        "value_": "vertical"
-                    }
-                },
-                "name": {
-                    "_id_": 301,
-                    "_type": "String",
-                    "value_": "PageProfile"
-                }
-            },
-            {
-                "_id_": 232,
+                "_id_": 84,
                 "_type": "ColorResource",
                 "color": {
-                    "_id_": 236,
+                    "_id_": 85,
                     "_type": "Color",
                     "color_": -679884
                 },
                 "name": {
-                    "_id_": 235,
+                    "_id_": 86,
                     "_type": "String",
                     "value_": "primary"
                 }
@@ -704,73 +476,78 @@
         ]
     },
     "settings": {
-        "_id_": 1091,
+        "_id_": 87,
         "_type": "App.Settings",
         "debugBuild": {
-            "_id_": 1093,
-            "_type": "App.Settings.DebugBuild"
+            "_id_": 88,
+            "_type": "App.Settings.DebugBuild",
+            "includeAssets": {
+                "_id_": 89,
+                "_type": "Boolean",
+                "value_": true
+            }
         },
         "releaseBuild": {
-            "_id_": 1095,
+            "_id_": 90,
             "_type": "App.Settings.ReleaseBuild"
         }
     },
     "theme": {
-        "_id_": 28,
+        "_id_": 91,
         "_type": "Theme.Material.DayNight",
         "colorPrimary": {
-            "_id_": 56,
+            "_id_": 92,
             "_type": "ColorReference",
             "ref": {
-                "_id_": 57,
+                "_id_": 93,
                 "_type": "String",
                 "value_": "@color\/primary"
             }
         }
     },
     "packaging": {
-        "_id_": 12,
+        "_id_": 94,
         "_type": "App.Packaging",
         "icon": {
-            "_id_": 54,
+            "_id_": 95,
             "_type": "DrawableReference",
             "ref": {
-                "_id_": 55,
+                "_id_": 96,
                 "_type": "String",
-                "value_": "@drawable\/app_icon"
+                "value_": "@drawable\/"
             }
         },
         "targetSdk": {
-            "_id_": 1087,
+            "_id_": 97,
             "_type": "Integer",
             "value_": 35
         },
         "label": {
-            "_id_": 53,
+            "_id_": 98,
             "_type": "String",
             "value_": "PionÉ"
         },
         "versionName": {
-            "_id_": 1085,
+            "_id_": 99,
             "_type": "String",
             "value_": "1.0"
         },
         "versionCode": {
-            "_id_": 1084,
+            "_id_": 100,
             "_type": "Integer",
             "value_": 1
         },
         "minSdk": {
-            "_id_": 1086,
+            "_id_": 101,
             "_type": "Integer",
             "value_": 26
         },
         "permissions": {
-            "_id_": 1089,
+            "_id_": 102,
             "_type": "App.Permissions"
         },
         "packageName": {
-            "_id_": 52,
+            "_id_": 103,
             "_type": "String",
             "value_": "com.app.pionesia"
         }
