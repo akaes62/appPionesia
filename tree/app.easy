@@ -44,7 +44,7 @@
               "value_": "@id/content"
             }
           }
-        }, // <-- Koma di sini wajib ada
+        },
         "menu": {
           "_id_": 91,
           "_type": "Menu",
@@ -55,73 +55,25 @@
               {
                 "_id_": 95,
                 "_type": "Menu.Item",
-                "id": {
-                  "_id_": 100,
-                  "_type": "String",
-                  "value_": "menu_more"
-                },
-                "icon": {
-                  "_id_": 102,
-                  "_type": "DrawableReference",
-                  "ref": {
-                    "_id_": 103,
-                    "_type": "String",
-                    "value_": "@drawable/ic_more_vert"
-                  }
-                },
+                "id": "settings",
                 "title": {
                   "_id_": 101,
                   "_type": "String",
-                  "value_": "Opsi"
+                  "value_": "Settings"
                 },
-                "showAsAction": {
-                  "_id_": 104,
-                  "_type": "Menu.ShowAsAction",
-                  "value_": "never"
-                },
-                "subMenu": {
-                  "_id_": 500,
-                  "_type": "Menu",
-                  "items": {
-                    "_id_": 501,
-                    "_type": "List",
-                    "list_": [
-                      {
-                        "_id_": 502,
-                        "_type": "Menu.Item",
-                        "title": {
-                          "_id_": 503,
-                          "_type": "String",
-                          "value_": "Profil Coach"
-                        },
-                        "action": {
-                          "_id_": 504,
-                          "_type": "ShowToast",
-                          "message": {
-                            "_id_": 505,
-                            "_type": "String",
-                            "value_": "Membuka Profil..."
-                          }
-                        }
-                      },
-                      {
-                        "_id_": 506,
-                        "_type": "Menu.Item",
-                        "title": {
-                          "_id_": 507,
-                          "_type": "String",
-                          "value_": "Tentang Pionesia"
-                        }
-                      }
-                    ],
-                    "elementType_": "Menu.Element"
+                "action": {
+                  "_id_": 106,
+                  "_type": "ShowToast",
+                  "message": {
+                    "_id_": 109,
+                    "_type": "String",
+                    "value_": "Settings clicked"
                   }
                 }
               }
-            ],
-            "elementType_": "Menu.Element"
+            ]
           }
-        }, // <-- Koma di sini juga wajib
+        },
         "toolbar": {
           "_id_": 84,
           "_type": "Material.MaterialToolbar",
@@ -211,8 +163,7 @@
                   "_id_": 204,
                   "_type": "String",
                   "value_": "Kurikulum Catur Dasar (U10)"
-                },
-                "android:layout_centerInParent": true
+                }
               }
             ]
           }
@@ -236,8 +187,7 @@
                   "_id_": 221,
                   "_type": "String",
                   "value_": "Kurikulum Catur Menengah (U13)"
-                },
-                "android:layout_centerInParent": true
+                }
               }
             ]
           }
