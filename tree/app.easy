@@ -318,7 +318,7 @@
             "ref": {
                 "_id_": 96,
                 "_type": "String",
-                "value_": "@drawable\/"
+                "value_": "@drawable\/app_icon"
             }
         },
         "targetSdk": {
