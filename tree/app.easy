@@ -195,77 +195,15 @@
                                     "_type": "String",
                                     "value_": ""
                                 },
-                                "invalidFields": {
-                                    "_id_": 151,
-                                    "_type": "InvalidFields",
-                                    "fields": {
-                                        "name": {
-                                            "_id_": 46,
-                                            "_type": "String",
-                                            "value_": "page1"
-                                        },
-                                        "action": {
-                                            "_id_": 47,
-                                            "_type": "Fragment.Set",
-                                            "container": {
-                                                "_id_": 48,
-                                                "_type": "View.Reference",
-                                                "ref": {
-                                                    "_id_": 49,
-                                                    "_type": "String",
-                                                    "value_": "@id\/content"
-                                                }
-                                            },
-                                            "fragment": {
-                                                "_id_": 50,
-                                                "_type": "Fragment.Reference",
-                                                "name": {
-                                                    "_id_": 51,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            },
-                                            "invalidFields": {
-                                                "_id_": 165,
-                                                "_type": "InvalidFields",
-                                                "fields": {
-                                                    "urlValue": {
-                                                        "_id_": 52,
-                                                        "_type": "String.Concat",
-                                                        "invalidFields": {
-                                                            "_id_": 161,
-                                                            "_type": "InvalidFields",
-                                                            "fields": {
-                                                                "values": {
-                                                                    "_id_": 53,
-                                                                    "_type": "UnknownType",
-                                                                    "value": [
-                                                                        "file:\/\/\/android_asset\/",
-                                                                        {
-                                                                            "_id_": 54,
-                                                                            "_type": "Field.Get",
-                                                                            "name": "name"
-                                                                        },
-                                                                        ".html"
-                                                                    ]
-                                                                }
-                                                            }
-                                                        },
-                                                        "values": {
-                                                            "_id_": 163,
-                                                            "_type": "List",
-                                                            "list_": []
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                },
                                 "android:text": {
                                     "_id_": 45,
                                     "_type": "String",
                                     "value_": "1. Langkah Dasar Bidak"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 323,
+                                    "_type": "String",
+                                    "value_": "8dp"
                                 }
                             },
                             {
@@ -275,73 +213,6 @@
                                     "_id_": 56,
                                     "_type": "String",
                                     "value_": ""
-                                },
-                                "invalidFields": {
-                                    "_id_": 172,
-                                    "_type": "InvalidFields",
-                                    "fields": {
-                                        "name": {
-                                            "_id_": 59,
-                                            "_type": "String",
-                                            "value_": "page2"
-                                        },
-                                        "action": {
-                                            "_id_": 60,
-                                            "_type": "Fragment.Set",
-                                            "container": {
-                                                "_id_": 61,
-                                                "_type": "View.Reference",
-                                                "ref": {
-                                                    "_id_": 62,
-                                                    "_type": "String",
-                                                    "value_": "@id\/content"
-                                                }
-                                            },
-                                            "fragment": {
-                                                "_id_": 63,
-                                                "_type": "Fragment.Reference",
-                                                "name": {
-                                                    "_id_": 64,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            },
-                                            "invalidFields": {
-                                                "_id_": 186,
-                                                "_type": "InvalidFields",
-                                                "fields": {
-                                                    "urlValue": {
-                                                        "_id_": 65,
-                                                        "_type": "String.Concat",
-                                                        "invalidFields": {
-                                                            "_id_": 182,
-                                                            "_type": "InvalidFields",
-                                                            "fields": {
-                                                                "values": {
-                                                                    "_id_": 66,
-                                                                    "_type": "UnknownType",
-                                                                    "value": [
-                                                                        "file:\/\/\/android_asset\/",
-                                                                        {
-                                                                            "_id_": 67,
-                                                                            "_type": "Field.Get",
-                                                                            "name": "name"
-                                                                        },
-                                                                        ".html"
-                                                                    ]
-                                                                }
-                                                            }
-                                                        },
-                                                        "values": {
-                                                            "_id_": 184,
-                                                            "_type": "List",
-                                                            "list_": []
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
                                 },
                                 "android:text": {
                                     "_id_": 57,
@@ -361,73 +232,6 @@
                                     "_id_": 69,
                                     "_type": "String",
                                     "value_": ""
-                                },
-                                "invalidFields": {
-                                    "_id_": 193,
-                                    "_type": "InvalidFields",
-                                    "fields": {
-                                        "name": {
-                                            "_id_": 72,
-                                            "_type": "String",
-                                            "value_": "page3"
-                                        },
-                                        "action": {
-                                            "_id_": 73,
-                                            "_type": "Fragment.Set",
-                                            "container": {
-                                                "_id_": 74,
-                                                "_type": "View.Reference",
-                                                "ref": {
-                                                    "_id_": 75,
-                                                    "_type": "String",
-                                                    "value_": "@id\/content"
-                                                }
-                                            },
-                                            "fragment": {
-                                                "_id_": 76,
-                                                "_type": "Fragment.Reference",
-                                                "name": {
-                                                    "_id_": 77,
-                                                    "_type": "String",
-                                                    "value_": ""
-                                                }
-                                            },
-                                            "invalidFields": {
-                                                "_id_": 207,
-                                                "_type": "InvalidFields",
-                                                "fields": {
-                                                    "urlValue": {
-                                                        "_id_": 78,
-                                                        "_type": "String.Concat",
-                                                        "invalidFields": {
-                                                            "_id_": 203,
-                                                            "_type": "InvalidFields",
-                                                            "fields": {
-                                                                "values": {
-                                                                    "_id_": 79,
-                                                                    "_type": "UnknownType",
-                                                                    "value": [
-                                                                        "file:\/\/\/android_asset\/",
-                                                                        {
-                                                                            "_id_": 80,
-                                                                            "_type": "Field.Get",
-                                                                            "name": "name"
-                                                                        },
-                                                                        ".html"
-                                                                    ]
-                                                                }
-                                                            }
-                                                        },
-                                                        "values": {
-                                                            "_id_": 205,
-                                                            "_type": "List",
-                                                            "list_": []
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
                                 },
                                 "android:text": {
                                     "_id_": 70,
