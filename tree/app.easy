@@ -37,7 +37,7 @@
             "ref": {
               "_id_": 230,
               "_type": "String",
-              "value_": "@menu\/navigation_menu"
+              "value_": "@menu/navigation_menu"
             }
           },
           "fragmentContainer": {
@@ -46,7 +46,7 @@
             "ref": {
               "_id_": 134,
               "_type": "String",
-              "value_": "@id\/content"
+              "value_": "@id/content"
             }
           },
           "gravity": {
@@ -61,92 +61,91 @@
           }
         },
         "menu": {
-  "_id_": 91,
-  "_type": "Menu",
-  "items": {
-    "_id_": 93,
-    "_type": "List",
-    "list_": [
-      {
-        "_id_": 95,
-        "_type": "Menu.Item",
-        "icon": {
-          "_id_": 102,
-          "_type": "DrawableReference",
-          "ref": {
-            "_id_": 103,
-            "_type": "String",
-            "value_": "@drawable/menu"
-          }
-        },
-        "title": {
-          "_id_": 101,
-          "_type": "String",
-          "value_": "Opsi"
-        },
-        "showAsAction": {
-          "_id_": 104,
-          "_type": "Menu.ShowAsAction",
-          "value_": "never"
-        },
-        "id": {
-          "_id_": 100,
-          "_type": "String",
-          "value_": "menu_more"
-        },
-        "subMenu": {
-          "_id_": 500,
+          "_id_": 91,
           "_type": "Menu",
           "items": {
-            "_id_": 501,
+            "_id_": 93,
             "_type": "List",
             "list_": [
               {
-                "_id_": 502,
+                "_id_": 95,
                 "_type": "Menu.Item",
-                "title": {
-                  "_id_": 503,
-                  "_type": "String",
-                  "value_": "Profil Coach"
-                },
-                "action": {
-                  "_id_": 504,
-                  "_type": "ShowToast",
-                  "message": {
-                    "_id_": 505,
+                "icon": {
+                  "_id_": 102,
+                  "_type": "DrawableReference",
+                  "ref": {
+                    "_id_": 103,
                     "_type": "String",
-                    "value_": "Membuka Profil Coach..."
+                    "value_": "@drawable/menu"
                   }
-                }
-              },
-              {
-                "_id_": 506,
-                "_type": "Menu.Item",
-                "title": {
-                  "_id_": 507,
-                  "_type": "String",
-                  "value_": "Tentang Pionesia"
                 },
-                "action": {
-                  "_id_": 508,
-                  "_type": "ShowToast",
-                  "message": {
-                    "_id_": 509,
-                    "_type": "String",
-                    "value_": "Kurikulum Catur U10-U13"
+                "title": {
+                  "_id_": 101,
+                  "_type": "String",
+                  "value_": "Opsi"
+                },
+                "showAsAction": {
+                  "_id_": 104,
+                  "_type": "Menu.ShowAsAction",
+                  "value_": "never"
+                },
+                "id": {
+                  "_id_": 100,
+                  "_type": "String",
+                  "value_": "menu_more"
+                },
+                "subMenu": {
+                  "_id_": 500,
+                  "_type": "Menu",
+                  "items": {
+                    "_id_": 501,
+                    "_type": "List",
+                    "list_": [
+                      {
+                        "_id_": 502,
+                        "_type": "Menu.Item",
+                        "title": {
+                          "_id_": 503,
+                          "_type": "String",
+                          "value_": "Profil Coach"
+                        },
+                        "action": {
+                          "_id_": 504,
+                          "_type": "ShowToast",
+                          "message": {
+                            "_id_": 505,
+                            "_type": "String",
+                            "value_": "Membuka Profil Coach..."
+                          }
+                        }
+                      },
+                      {
+                        "_id_": 506,
+                        "_type": "Menu.Item",
+                        "title": {
+                          "_id_": 507,
+                          "_type": "String",
+                          "value_": "Tentang Pionesia"
+                        },
+                        "action": {
+                          "_id_": 508,
+                          "_type": "ShowToast",
+                          "message": {
+                            "_id_": 509,
+                            "_type": "String",
+                            "value_": "Kurikulum Catur U10-U13"
+                          }
+                        }
+                      }
+                    ],
+                    "elementType_": "Menu.Element"
                   }
                 }
               }
             ],
             "elementType_": "Menu.Element"
           }
-        }
-      }
-    ],
-    "elementType_": "Menu.Element"
-  }
-}
-
+        },
         "contentView": {
           "_id_": 111,
           "_type": "FragmentContainerView",
@@ -180,7 +179,7 @@
             "ref": {
               "_id_": 89,
               "_type": "String",
-              "value_": "@color\/primary"
+              "value_": "@color/primary"
             }
           }
         },
@@ -218,7 +217,7 @@
                   "ref": {
                     "_id_": 156,
                     "_type": "String",
-                    "value_": "@drawable\/item1_icon"
+                    "value_": "@drawable/item1_icon"
                   }
                 },
                 "title": {
@@ -235,7 +234,7 @@
                     "ref": {
                       "_id_": 168,
                       "_type": "String",
-                      "value_": "@id\/content"
+                      "value_": "@id/content"
                     }
                   },
                   "fragment": {
@@ -263,7 +262,7 @@
                   "ref": {
                     "_id_": 180,
                     "_type": "String",
-                    "value_": "@drawable\/item2_icon"
+                    "value_": "@drawable/item2_icon"
                   }
                 },
                 "title": {
@@ -280,7 +279,7 @@
                     "ref": {
                       "_id_": 192,
                       "_type": "String",
-                      "value_": "@id\/content"
+                      "value_": "@id/content"
                     }
                   },
                   "fragment": {
@@ -455,7 +454,7 @@
       "ref": {
         "_id_": 57,
         "_type": "String",
-        "value_": "@color\/primary"
+        "value_": "@color/primary"
       }
     }
   },
@@ -468,7 +467,7 @@
       "ref": {
         "_id_": 55,
         "_type": "String",
-        "value_": "@drawable\/app_icon"
+        "value_": "@drawable/app_icon"
       }
     },
     "targetSdk": {
