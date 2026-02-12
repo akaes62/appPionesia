@@ -87,17 +87,30 @@
                                                 },
                                                 "action": {
                                                     "_id_": 504,
-                                                    "_type": "ShowToast",
-                                                    "message": {
-                                                        "_id_": 505,
-                                                        "_type": "String",
-                                                        "value_": "Membuka Profil Coach..."
+                                                    "_type": "Fragment.Set",
+                                                    "container": {
+                                                        "_id_": 600,
+                                                        "_type": "View.Reference",
+                                                        "ref": {
+                                                            "_id_": 731,
+                                                            "_type": "String",
+                                                            "value_": "@id\/content"
+                                                        }
+                                                    },
+                                                    "fragment": {
+                                                        "_id_": 601,
+                                                        "_type": "Fragment.Reference",
+                                                        "name": {
+                                                            "_id_": 733,
+                                                            "_type": "String",
+                                                            "value_": "PageProfile"
+                                                        }
                                                     }
                                                 },
                                                 "id": {
                                                     "_id_": 539,
                                                     "_type": "String",
-                                                    "value_": ""
+                                                    "value_": "menu_profile"
                                                 }
                                             },
                                             {
@@ -120,7 +133,7 @@
                                                 "id": {
                                                     "_id_": 545,
                                                     "_type": "String",
-                                                    "value_": ""
+                                                    "value_": "menu_about"
                                                 }
                                             }
                                         ],
@@ -225,7 +238,7 @@
                                     "_id_": 155,
                                     "_type": "DrawableReference",
                                     "ref": {
-                                        "_id_": 156,
+                                        "_id_": 761,
                                         "_type": "String",
                                         "value_": "@drawable\/item1_icon"
                                     }
@@ -242,7 +255,7 @@
                                         "_id_": 167,
                                         "_type": "View.Reference",
                                         "ref": {
-                                            "_id_": 168,
+                                            "_id_": 765,
                                             "_type": "String",
                                             "value_": "@id\/content"
                                         }
@@ -251,7 +264,7 @@
                                         "_id_": 169,
                                         "_type": "Fragment.Reference",
                                         "name": {
-                                            "_id_": 170,
+                                            "_id_": 767,
                                             "_type": "String",
                                             "value_": "Page1"
                                         }
@@ -270,7 +283,7 @@
                                     "_id_": 179,
                                     "_type": "DrawableReference",
                                     "ref": {
-                                        "_id_": 180,
+                                        "_id_": 771,
                                         "_type": "String",
                                         "value_": "@drawable\/item2_icon"
                                     }
@@ -278,7 +291,7 @@
                                 "title": {
                                     "_id_": 178,
                                     "_type": "String",
-                                    "value_": "Pezzles"
+                                    "value_": "Puzzles"
                                 },
                                 "action": {
                                     "_id_": 182,
@@ -287,7 +300,7 @@
                                         "_id_": 191,
                                         "_type": "View.Reference",
                                         "ref": {
-                                            "_id_": 192,
+                                            "_id_": 775,
                                             "_type": "String",
                                             "value_": "@id\/content"
                                         }
@@ -296,7 +309,7 @@
                                         "_id_": 193,
                                         "_type": "Fragment.Reference",
                                         "name": {
-                                            "_id_": 194,
+                                            "_id_": 777,
                                             "_type": "String",
                                             "value_": "Page2"
                                         }
@@ -320,7 +333,7 @@
                     "_id_": 207,
                     "_type": "RelativeLayout",
                     "id": {
-                        "_id_": 211,
+                        "_id_": 788,
                         "_type": "String",
                         "value_": ""
                     },
@@ -332,17 +345,17 @@
                                 "_id_": 200,
                                 "_type": "TextView",
                                 "id": {
-                                    "_id_": 203,
+                                    "_id_": 786,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "android:text": {
-                                    "_id_": 204,
+                                    "_id_": 783,
                                     "_type": "String",
-                                    "value_": "Page 1"
+                                    "value_": "Materi Dasar Catur"
                                 },
                                 "android:layout_centerInParent": {
-                                    "_id_": 205,
+                                    "_id_": 784,
                                     "_type": "Boolean",
                                     "value_": true
                                 }
@@ -363,7 +376,7 @@
                     "_id_": 224,
                     "_type": "RelativeLayout",
                     "id": {
-                        "_id_": 228,
+                        "_id_": 799,
                         "_type": "String",
                         "value_": ""
                     },
@@ -375,17 +388,17 @@
                                 "_id_": 217,
                                 "_type": "TextView",
                                 "id": {
-                                    "_id_": 220,
+                                    "_id_": 797,
                                     "_type": "String",
                                     "value_": ""
                                 },
                                 "android:text": {
-                                    "_id_": 221,
+                                    "_id_": 794,
                                     "_type": "String",
-                                    "value_": "Page 2"
+                                    "value_": "Latihan Puzzle"
                                 },
                                 "android:layout_centerInParent": {
-                                    "_id_": 222,
+                                    "_id_": 795,
                                     "_type": "Boolean",
                                     "value_": true
                                 }
@@ -397,6 +410,126 @@
                     "_id_": 215,
                     "_type": "String",
                     "value_": "Page2"
+                }
+            },
+            {
+                "_id_": 700,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 702,
+                    "_type": "LinearLayout",
+                    "id": {
+                        "_id_": 829,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 703,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 704,
+                                "_type": "ImageView",
+                                "id": {
+                                    "_id_": 814,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:layout_width": {
+                                    "_id_": 809,
+                                    "_type": "String",
+                                    "value_": "100dp"
+                                },
+                                "android:layout_height": {
+                                    "_id_": 810,
+                                    "_type": "String",
+                                    "value_": "100dp"
+                                },
+                                "android:src": {
+                                    "_id_": 705,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 812,
+                                        "_type": "String",
+                                        "value_": "@drawable\/app_icon"
+                                    }
+                                }
+                            },
+                            {
+                                "_id_": 706,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 821,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:textStyle": {
+                                    "_id_": 818,
+                                    "_type": "TextView.TextStyle",
+                                    "value_": "bold"
+                                },
+                                "android:text": {
+                                    "_id_": 816,
+                                    "_type": "String",
+                                    "value_": "Coach PionÉ"
+                                },
+                                "android:textSize": {
+                                    "_id_": 817,
+                                    "_type": "String",
+                                    "value_": "22sp"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 819,
+                                    "_type": "String",
+                                    "value_": "16dp"
+                                }
+                            },
+                            {
+                                "_id_": 707,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 827,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 823,
+                                    "_type": "String",
+                                    "value_": "Pengajar Catur Paruh Waktu\nFokus: U10 - U13 Indonesia"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 825,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                },
+                                "android:gravity": {
+                                    "_id_": 824,
+                                    "_type": "Gravity",
+                                    "value_": "center"
+                                }
+                            }
+                        ]
+                    },
+                    "android:padding": {
+                        "_id_": 806,
+                        "_type": "String",
+                        "value_": "24dp"
+                    },
+                    "android:gravity": {
+                        "_id_": 805,
+                        "_type": "Gravity",
+                        "value_": "center_horizontal"
+                    },
+                    "android:orientation": {
+                        "_id_": 804,
+                        "_type": "Orientation",
+                        "value_": "vertical"
+                    }
+                },
+                "name": {
+                    "_id_": 701,
+                    "_type": "String",
+                    "value_": "PageProfile"
                 }
             },
             {
@@ -439,25 +572,20 @@
         ]
     },
     "settings": {
-        "_id_": 6,
+        "_id_": 853,
         "_type": "App.Settings",
         "debugBuild": {
-            "_id_": 8,
+            "_id_": 855,
             "_type": "App.Settings.DebugBuild"
         },
         "releaseBuild": {
-            "_id_": 10,
+            "_id_": 857,
             "_type": "App.Settings.ReleaseBuild"
         }
     },
     "theme": {
         "_id_": 28,
         "_type": "Theme.Material.DayNight",
-        "statusBarMatchingActivity": {
-            "_id_": 58,
-            "_type": "Boolean",
-            "value_": true
-        },
         "colorPrimary": {
             "_id_": 56,
             "_type": "ColorReference",
@@ -475,42 +603,42 @@
             "_id_": 54,
             "_type": "DrawableReference",
             "ref": {
-                "_id_": 55,
+                "_id_": 843,
                 "_type": "String",
                 "value_": "@drawable\/app_icon"
             }
         },
         "targetSdk": {
-            "_id_": 17,
+            "_id_": 849,
             "_type": "Integer",
             "value_": 35
         },
         "label": {
-            "_id_": 53,
+            "_id_": 844,
             "_type": "String",
             "value_": "PionÉ"
         },
         "versionName": {
-            "_id_": 19,
+            "_id_": 847,
             "_type": "String",
             "value_": "1.0"
         },
         "versionCode": {
-            "_id_": 20,
+            "_id_": 846,
             "_type": "Integer",
             "value_": 1
         },
         "minSdk": {
-            "_id_": 21,
+            "_id_": 848,
             "_type": "Integer",
             "value_": 26
         },
         "permissions": {
-            "_id_": 23,
+            "_id_": 851,
             "_type": "App.Permissions"
         },
         "packageName": {
-            "_id_": 52,
+            "_id_": 845,
             "_type": "String",
             "value_": "com.app.pionesia"
         }
