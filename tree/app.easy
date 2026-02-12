@@ -504,15 +504,6 @@
                                     "_type": "String",
                                     "value_": "8dp"
                                 }
-                            },
-                            {
-                                "_id_": 1097,
-                                "_type": "WebView",
-                                "id": {
-                                    "_id_": 1099,
-                                    "_type": "String",
-                                    "value_": ""
-                                }
                             }
                         ]
                     },
