@@ -61,53 +61,92 @@
           }
         },
         "menu": {
-          "_id_": 91,
+  "_id_": 91,
+  "_type": "Menu",
+  "items": {
+    "_id_": 93,
+    "_type": "List",
+    "list_": [
+      {
+        "_id_": 95,
+        "_type": "Menu.Item",
+        "icon": {
+          "_id_": 102,
+          "_type": "DrawableReference",
+          "ref": {
+            "_id_": 103,
+            "_type": "String",
+            "value_": "@drawable/menu"
+          }
+        },
+        "title": {
+          "_id_": 101,
+          "_type": "String",
+          "value_": "Opsi"
+        },
+        "showAsAction": {
+          "_id_": 104,
+          "_type": "Menu.ShowAsAction",
+          "value_": "never"
+        },
+        "id": {
+          "_id_": 100,
+          "_type": "String",
+          "value_": "menu_more"
+        },
+        "subMenu": {
+          "_id_": 500,
           "_type": "Menu",
           "items": {
-            "_id_": 93,
+            "_id_": 501,
             "_type": "List",
             "list_": [
               {
-                "_id_": 95,
+                "_id_": 502,
                 "_type": "Menu.Item",
-                "icon": {
-                  "_id_": 102,
-                  "_type": "DrawableReference",
-                  "ref": {
-                    "_id_": 103,
-                    "_type": "String",
-                    "value_": "@drawable\/settings"
-                  }
-                },
                 "title": {
-                  "_id_": 101,
+                  "_id_": 503,
                   "_type": "String",
-                  "value_": "Settings"
-                },
-                "showAsAction": {
-                  "_id_": 104,
-                  "_type": "Menu.ShowAsAction",
-                  "value_": "always"
+                  "value_": "Profil Coach"
                 },
                 "action": {
-                  "_id_": 106,
+                  "_id_": 504,
                   "_type": "ShowToast",
                   "message": {
-                    "_id_": 109,
+                    "_id_": 505,
                     "_type": "String",
-                    "value_": "Settings clicked"
+                    "value_": "Membuka Profil Coach..."
                   }
-                },
-                "id": {
-                  "_id_": 100,
+                }
+              },
+              {
+                "_id_": 506,
+                "_type": "Menu.Item",
+                "title": {
+                  "_id_": 507,
                   "_type": "String",
-                  "value_": "settings"
+                  "value_": "Tentang Pionesia"
+                },
+                "action": {
+                  "_id_": 508,
+                  "_type": "ShowToast",
+                  "message": {
+                    "_id_": 509,
+                    "_type": "String",
+                    "value_": "Kurikulum Catur U10-U13"
+                  }
                 }
               }
             ],
             "elementType_": "Menu.Element"
           }
-        },
+        }
+      }
+    ],
+    "elementType_": "Menu.Element"
+  }
+}
+
         "contentView": {
           "_id_": 111,
           "_type": "FragmentContainerView",
