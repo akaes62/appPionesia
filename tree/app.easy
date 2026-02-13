@@ -496,6 +496,49 @@
                 }
             },
             {
+                "_id_": 1167,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 1168,
+                    "_type": "RelativeLayout",
+                    "id": {
+                        "_id_": 1169,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 1170,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 1171,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 1172,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 1173,
+                                    "_type": "String",
+                                    "value_": "Latihan Puzzle"
+                                },
+                                "android:layout_centerInParent": {
+                                    "_id_": 1174,
+                                    "_type": "Boolean",
+                                    "value_": true
+                                }
+                            }
+                        ]
+                    }
+                },
+                "name": {
+                    "_id_": 1175,
+                    "_type": "String",
+                    "value_": "Page2"
+                }
+            },
+            {
                 "_id_": 215,
                 "_type": "Fragment",
                 "layout": {
@@ -521,7 +564,7 @@
                                 "android:text": {
                                     "_id_": 625,
                                     "_type": "String",
-                                    "value_": "Latihan Puzzle"
+                                    "value_": "Latihan Opening"
                                 },
                                 "android:layout_centerInParent": {
                                     "_id_": 626,
@@ -535,7 +578,7 @@
                 "name": {
                     "_id_": 216,
                     "_type": "String",
-                    "value_": "Page2"
+                    "value_": "Page3"
                 }
             },
             {
