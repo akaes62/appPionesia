@@ -267,6 +267,51 @@
                                 }
                             },
                             {
+                                "_id_": 1344,
+                                "_type": "Menu.Item",
+                                "icon": {
+                                    "_id_": 1345,
+                                    "_type": "DrawableReference",
+                                    "ref": {
+                                        "_id_": 1346,
+                                        "_type": "String",
+                                        "value_": "@drawable\/item2_icon"
+                                    }
+                                },
+                                "title": {
+                                    "_id_": 1347,
+                                    "_type": "String",
+                                    "value_": "Puzzles"
+                                },
+                                "action": {
+                                    "_id_": 1348,
+                                    "_type": "Fragment.Set",
+                                    "container": {
+                                        "_id_": 1349,
+                                        "_type": "View.Reference",
+                                        "ref": {
+                                            "_id_": 1350,
+                                            "_type": "String",
+                                            "value_": "@id\/content"
+                                        }
+                                    },
+                                    "fragment": {
+                                        "_id_": 1351,
+                                        "_type": "Fragment.Reference",
+                                        "name": {
+                                            "_id_": 1352,
+                                            "_type": "String",
+                                            "value_": "Page2"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "_id_": 1353,
+                                    "_type": "String",
+                                    "value_": "item2"
+                                }
+                            },
+                            {
                                 "_id_": 172,
                                 "_type": "Menu.Item",
                                 "icon": {
@@ -275,13 +320,13 @@
                                     "ref": {
                                         "_id_": 180,
                                         "_type": "String",
-                                        "value_": "@drawable\/item2_icon"
+                                        "value_": "@drawable\/item3_icon"
                                     }
                                 },
                                 "title": {
                                     "_id_": 178,
                                     "_type": "String",
-                                    "value_": "Puzzles"
+                                    "value_": "Opening"
                                 },
                                 "action": {
                                     "_id_": 182,
@@ -308,7 +353,7 @@
                                 "id": {
                                     "_id_": 177,
                                     "_type": "String",
-                                    "value_": "item2"
+                                    "value_": "item3"
                                 }
                             }
                         ],
