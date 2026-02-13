@@ -149,6 +149,236 @@
                 }
             },
             {
+                "_id_": 401,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 402,
+                    "_type": "LinearLayout",
+                    "id": {
+                        "_id_": 403,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 404,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 405,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 406,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:textStyle": {
+                                    "_id_": 407,
+                                    "_type": "TextView.TextStyle",
+                                    "value_": "bold"
+                                },
+                                "android:text": {
+                                    "_id_": 408,
+                                    "_type": "String",
+                                    "value_": "🌳 Pohon Materi U10"
+                                },
+                                "android:textSize": {
+                                    "_id_": 409,
+                                    "_type": "String",
+                                    "value_": "20sp"
+                                }
+                            },
+                            {
+                                "_id_": 410,
+                                "_type": "Button",
+                                "id": {
+                                    "_id_": 411,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 412,
+                                    "_type": "String",
+                                    "value_": "1. Langkah Dasar Bidak"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 413,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                }
+                            },
+                            {
+                                "_id_": 414,
+                                "_type": "Button",
+                                "id": {
+                                    "_id_": 415,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 416,
+                                    "_type": "String",
+                                    "value_": "2. Aturan Rokade"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 417,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                }
+                            },
+                            {
+                                "_id_": 418,
+                                "_type": "Button",
+                                "id": {
+                                    "_id_": 419,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 420,
+                                    "_type": "String",
+                                    "value_": "3. Skak & Skak Mat"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 421,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                }
+                            }
+                        ]
+                    },
+                    "android:padding": {
+                        "_id_": 422,
+                        "_type": "String",
+                        "value_": "16dp"
+                    },
+                    "android:orientation": {
+                        "_id_": 423,
+                        "_type": "Orientation",
+                        "value_": "vertical"
+                    }
+                },
+                "name": {
+                    "_id_": 424,
+                    "_type": "String",
+                    "value_": "Page1"
+                }
+            },
+            {
+                "_id_": 449,
+                "_type": "Fragment",
+                "layout": {
+                    "_id_": 450,
+                    "_type": "LinearLayout",
+                    "id": {
+                        "_id_": 451,
+                        "_type": "String",
+                        "value_": ""
+                    },
+                    "views": {
+                        "_id_": 452,
+                        "_type": "ViewList",
+                        "list_": [
+                            {
+                                "_id_": 453,
+                                "_type": "TextView",
+                                "id": {
+                                    "_id_": 454,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:textStyle": {
+                                    "_id_": 455,
+                                    "_type": "TextView.TextStyle",
+                                    "value_": "bold"
+                                },
+                                "android:text": {
+                                    "_id_": 456,
+                                    "_type": "String",
+                                    "value_": "🌳 Pohon Materi U10"
+                                },
+                                "android:textSize": {
+                                    "_id_": 457,
+                                    "_type": "String",
+                                    "value_": "20sp"
+                                }
+                            },
+                            {
+                                "_id_": 458,
+                                "_type": "Button",
+                                "id": {
+                                    "_id_": 459,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 460,
+                                    "_type": "String",
+                                    "value_": "1. Langkah Dasar Bidak"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 461,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                }
+                            },
+                            {
+                                "_id_": 462,
+                                "_type": "Button",
+                                "id": {
+                                    "_id_": 463,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 464,
+                                    "_type": "String",
+                                    "value_": "2. Aturan Rokade"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 465,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                }
+                            },
+                            {
+                                "_id_": 466,
+                                "_type": "Button",
+                                "id": {
+                                    "_id_": 467,
+                                    "_type": "String",
+                                    "value_": ""
+                                },
+                                "android:text": {
+                                    "_id_": 468,
+                                    "_type": "String",
+                                    "value_": "3. Skak & Skak Mat"
+                                },
+                                "android:layout_marginTop": {
+                                    "_id_": 469,
+                                    "_type": "String",
+                                    "value_": "8dp"
+                                }
+                            }
+                        ]
+                    },
+                    "android:padding": {
+                        "_id_": 470,
+                        "_type": "String",
+                        "value_": "16dp"
+                    },
+                    "android:orientation": {
+                        "_id_": 471,
+                        "_type": "Orientation",
+                        "value_": "vertical"
+                    }
+                },
+                "name": {
+                    "_id_": 472,
+                    "_type": "String",
+                    "value_": "Page2"
+                }
+            },
+            {
                 "_id_": 34,
                 "_type": "Fragment",
                 "layout": {
@@ -260,7 +490,7 @@
                 "name": {
                     "_id_": 83,
                     "_type": "String",
-                    "value_": "Page1"
+                    "value_": "Page3"
                 }
             },
             {
